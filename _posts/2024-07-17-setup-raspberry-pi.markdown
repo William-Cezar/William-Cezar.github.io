@@ -43,11 +43,14 @@ The Raspberry Pi Imager software makes it easy to write OS images to the MicroSD
 * Enabling SSH is highly recommended, especially if you are not planning to use a direct monitor connection.
 5. Click on “Write” and wait for the process to complete. This will download the latest version of the OS and write it to your SD card.
 
-
-
 #### Step 3: Initial Setup
 
-
+##### **Once the OS is written to the card:**
+1. Remove the MicroSD card from your computer and insert it into your Raspberry Pi.
+2. Plug your Raspberry Pi into the power supply
+3. Connect your Raspberry Pi to your network via an Ethernet cable for a stable internet connection.
+4. Since you will be accessing the Raspberry Pi using SSH, ensure SSH is enabled as explained in Step 2. If SSH is not enabled, you will also need to connect a monitor, keyboard, and mouse to configure your Raspberry Pi.
+5. Connect the Raspberry Pi to the power source. It will boot automatically and should be ready for use shortly!
 
 
 [website]: https://www.raspberrypi.com/software/
