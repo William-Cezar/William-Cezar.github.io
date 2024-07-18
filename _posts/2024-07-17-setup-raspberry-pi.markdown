@@ -32,7 +32,7 @@ Since the Raspberry Pi OS image needs to be written to a MicroSD card, if you ar
 #### Step 2: Writing the Raspberry Pi OS Image
 
 The Raspberry Pi Imager software makes it easy to write OS images to the MicroSD card.
-1. Download and install the Raspberry Pi Imager from the Raspberry Pi Foundation's website.
+1. Download and install the Raspberry Pi Imager from the Raspberry Pi Foundation's [website][website].
 2. Open the Raspberry Pi Imager and select the desired version of Raspberry Pi OS.
 3. Choose the MicroSD card you prepared as the card to write to.
 4. Before writing the image, you can set additional options by accessing the advanced settings.
@@ -43,4 +43,11 @@ The Raspberry Pi Imager software makes it easy to write OS images to the MicroSD
 * Enabling SSH is highly recommended, especially if you are not planning to use a direct monitor connection.
 5. Click on “Write” and wait for the process to complete. This will download the latest version of the OS and write it to your SD card.
 
+
+
 #### Step 3: Initial Setup
+
+
+
+
+[website]: https://www.raspberrypi.com/software/
