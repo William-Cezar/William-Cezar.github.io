@@ -60,7 +60,7 @@ With the Raspberry Pi up and running, it's time to connect via SSH. The steps de
 
 1. Find the IP Address:
 * Ensure your Raspberry Pi is connected to the same network as your computer, either through Ethernet or WiFi, based on your setup in the Raspberry Pi Imager.
-* You can find the Raspberry Pi’s IP address from your router's DHCP lease table, which lists all devices connected to your network. The device name should start with raspberrypi unless you changed the hostname in the Imager settings.
+* You can find the Raspberry Pi’s IP address from your router's DHCP lease table, which lists all devices connected to your network. The device name should start with `raspberrypi` unless you changed the hostname in the Imager settings.
 
 2. Open Terminal:
 * On your Ubuntu machine, open the Terminal application.
@@ -95,4 +95,38 @@ ssh pi@<IP_ADDRESS>
 * If you encounter any issues connecting, double-check the IP address and ensure that your Raspberry Pi is properly connected to the network and powered on. Also, verify that SSH was enabled during the OS setup.
 
 
+### Installing the Softwares related to satellite tracking
+
+Now that your Raspberry Pi is set up and accessible via SSH, let's install the software tools we'll use for our satellite tracking project.
+
+### RTL-SDR:
+
+RTL-SDR is a popular software-defined radio (SDR) receiver that allows us to capture and decode a wide range of radio signals. It's essential for receiving transmissions from satellites. 
+
+Connect your RLT-SDR receptor to the USB port of your Raspberry Pi.
+
+**Installation:**
+```
+sudo apt update
+sudo apt install rtl-sdr
+```
+
+**Testing:**
+Ensure your RTL-SDR is functioning by running the test command:
+```
+rtl_test
+```
+This command checks the connectivity and functionality of your RTL-SDR device, ensuring it is ready for further use.
+
+### Gqrx SDR:
+Gqrx provides a graphical interface to visualize and listen to the radio signals captured by RTL-SDR. This tool makes it easier to identify and monitor different frequencies and signals from satellites.
+
+**Installation:**
+```
+sudo apt install gqrx-sdr
+```
+
+
+
 [website]: https://www.raspberrypi.com/software/
+
