@@ -14,6 +14,8 @@ This guide assumes you have all the necessary hardware for the Raspberry Pi 4 to
 
 ### Installing the Raspberry Pi OS
 
+Here is what we need:
+
 * Raspberry Pi 4 Model B
 * MicroSD card
 * MicroSD card reader
