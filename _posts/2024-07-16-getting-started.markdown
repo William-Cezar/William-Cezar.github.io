@@ -2,7 +2,8 @@
 layout: post
 title:  "Getting Started!"
 date:   2024-07-16 22:09:04 -0300
-categories: jekyll update
+permalink: /getting-started.html
+
 ---
 Hello there!
 
