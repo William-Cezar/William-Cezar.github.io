@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing and Accessing Cockpit, Uptime Kuma, and Netdata"
-date:   2024-09-01 21:09:04 -0300
+date:   2024-08-31 21:09:04 -0300
 permalink: /server-monitoring-tools.html
 ---
 
@@ -19,3 +19,11 @@ sudo apt install cockpit
 ```
 
 Access Cockpit at `http://localhost:9090/` after tunneling.
+
+### Uptime Kuma Installation
+
+```
+docker run -d --name uptime-kuma -p 3001:3001 louislam/uptime-kuma
+```
+
+Access Uptime Kuma at `http://localhost:3001/` after tunneling.

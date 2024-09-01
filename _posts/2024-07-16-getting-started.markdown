@@ -3,22 +3,24 @@ layout: post
 title:  "Getting Started!"
 date:   2024-07-16 22:09:04 -0300
 permalink: /getting-started.html
-
 ---
-Hello there!
 
-In this post I will present the tools I am using for this project. There will be separate posts with detailed explanations when necessary. Please keep in mind that since this is an ongoing project, the list of tools will definitely expand over time. I will always come back to update this post with the latest additions.
+## Hello there!
 
-### Raspberry Pi 4
+Welcome to my blog, **Captain's Tech Log**, where I document my journey through various technology projects. This space is dedicated to sharing everything from the setup of satellite tracking systems to the exploration of new software tools and programming techniques.
 
-![Raspberry Pi 4](/images/raspberry.png)
+### Why This Blog?
 
-As the foundational hardware for this project, I chose the Raspberry Pi 4 Model B. This compact yet powerful single-board computer is well-suited for managing the demands of satellite tracking. Here are the key specifications of the Raspberry Pi that I am utilizing:
+My passion for technology and continuous learning drove me to start this blog. It serves as a personal diary where I not only track my progress on current projects but also share insights and detailed tutorials that might help others on similar paths.
 
-* **Memory**: 2GB LPDDR4 RAM.
-* **Processor**: 64-bit quad-core Cortex-AT2 processor.
-* **Video Output**: 2 micro HDMI ports.
-* **Connectivity**: Gigabit Ethernet port.
-* **USB Ports**: 2 USB 3.0 ports and 2 USB 2.0 ports.
+### Get Involved!
 
-For a detailed description of how to set up the Raspberry Pi 4, please read [this post](/setup-raspberry-pi.html).
+I encourage you to get involved:
+- **Comment**: Share your thoughts and suggestions on posts—feedback is invaluable!
+- **Subscribe**: Stay updated with the latest posts and announcements.
+- **Share**: If you find something interesting here, please share it with others who might benefit from it.
+
+### Stay Tuned!
+
+Thank you for visiting, and I hope you’ll stick around to see where this journey takes us.
+

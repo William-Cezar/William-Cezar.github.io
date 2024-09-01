@@ -10,7 +10,17 @@ permalink: /setup-raspberry-pi.html
 
 Welcome to this tutorial on how to set up your Raspberry Pi using the Raspberry Pi OS. This guide will walk you through the initial steps needed to get your Raspberry Pi up and running, starting with the preparation of the SD card, writing the operating system image, and initial configuration settings.
 
-This guide assumes you have all the necessary hardware for the Raspberry Pi 4 to function. Please read [this page](/getting-started.html) to verify the required components.
+### Raspberry Pi 4
+
+![Raspberry Pi 4](/images/raspberry.png)
+
+Raspberry Pi 4 Model B. Here are the key specifications of the Raspberry Pi that I am utilizing:
+
+* **Memory**: 2GB LPDDR4 RAM.
+* **Processor**: 64-bit quad-core Cortex-AT2 processor.
+* **Video Output**: 2 micro HDMI ports.
+* **Connectivity**: Gigabit Ethernet port.
+* **USB Ports**: 2 USB 3.0 ports and 2 USB 2.0 ports.
 
 ### Installing the Raspberry Pi OS
 
