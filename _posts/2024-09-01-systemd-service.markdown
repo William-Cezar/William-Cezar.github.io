@@ -33,7 +33,6 @@ This guide will cover:
 - How to create and manage custom systemd service files.
 - Best practices for maintaining services in a Linux environment.
 
-Stay tuned as we delve into each of these topics, equipping you with the tools you need to manage your server or desktop Linux system effectively.
 
 ### Basic `systemctl` Commands
 
