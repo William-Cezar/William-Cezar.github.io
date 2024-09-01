@@ -67,3 +67,37 @@ ssh -L 3001:localhost:3001 your-username@your-server-ip
 Once the tunnel is established, navigate to http://localhost:3001/ in your browser to access Uptime Kuma's dashboard.
 
 Using SSH tunneling ensures that your monitoring dashboard remains private and accessible only to those with the appropriate credentials, enhancing the security of your monitoring setup.
+
+### Netdata Installation
+
+Netdata is a highly efficient, open-source, real-time monitoring solution that visualizes and troubleshoots the performance of your server or servers. It's renowned for its real-time capabilities, showing you detailed metrics updated per second without storage overhead or impact on the server's performance.
+
+#### Key Features:
+- **Real-Time Metrics**: Streams thousands of metrics in real-time, offering insights into CPU, memory, disk I/O, network traffic, and much more.
+- **Extensive Plugins**: Supports a vast array of plugins for different services and applications, ensuring broad monitoring coverage.
+- **Customizable Dashboards**: Users can customize dashboards to focus on the metrics that matter most to them, enhancing monitoring efficiency.
+- **Alarm Engine**: Features a sophisticated alarm system that can notify you about system anomalies and thresholds breaches through various notification channels.
+- **Zero Configuration**: Netdata works right out of the box without the need for complex configuration, making it ideal for quick deployments.
+
+#### Installing Netdata:
+Netdata can be installed on any Linux distribution. The simplest method is using the official installation script that handles all dependencies and setups:
+```
+bash <(curl -Ss https://my-netdata.io/kickstart.sh)
+```
+
+This command downloads and runs Netdata's installation script, which automatically configures and starts the Netdata service.
+
+#### Accessing Netdata:
+
+After installation, Netdata is typically available on port 19999. Access it via: http://localhost:19999/
+
+However, to securely access your monitoring dashboard over the internet or from non-local networks, consider setting up an SSH tunnel.
+
+#### Setting Up SSH Tunneling for Netdata:
+Create a secure SSH tunnel by running the following command:
+
+```
+ssh -L 19999:localhost:19999 your-username@your-server-ip
+```
+
+With the SSH tunnel established, you can access the Netdata dashboard securely by navigating to: http://localhost:19999/
