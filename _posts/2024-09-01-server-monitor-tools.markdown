@@ -32,7 +32,7 @@ After installation, Cockpit can be accessed via a web browser at http://localhos
 #### Setting Up SSH Tunneling for Cockpit:
 To access Cockpit securely, use the following command to create an SSH tunnel from your local machine to the server:
 ```
-ssh -L 9090:localhost:9090 your-username@your-server.com
+ssh -L 9090:localhost:9090 your-username@your-server-ip
 ```
 
 
