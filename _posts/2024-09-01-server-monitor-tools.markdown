@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Installing and Accessing Cockpit, Uptime Kuma, and Netdata"
+date:   2024-09-01 21:09:04 -0300
+permalink: /server-monitoring-tools.html
+---
+
+## Introduction
+In the digital age, the health of your servers is as crucial as the functionality of the applications they host. Monitoring these servers can prevent downtime, optimize performance, and predict resource needs. Today, we'll cover how to install and access three essential monitoring tools: **Cockpit**, **Uptime Kuma**, and **Netdata**. Each offers unique insights into your systems and can be accessed securely from your local machine.
+
+## Installing the Tools
+
+### Cockpit Installation
+Cockpit is integrated into many Linux distributions, making its installation straightforward:
+
+#### For Ubuntu:
+```
+sudo apt install cockpit
+```
+
+Access Cockpit at `http://localhost:9090/` after tunneling.

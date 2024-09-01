@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Skywatcher’s Log
-email: wcezar@chesscoding.tech
+title: Captain's Tech Log
+email: wcezar@ctdevelopers.solutions
 description: >- # this means to ignore newlines until "baseurl:"
   This blog documents my experience setting up and using a Raspberry Pi
   to track NOAA and Meteor M2 satellites, capturing and analyzing data from the skies.

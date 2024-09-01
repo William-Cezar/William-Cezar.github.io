@@ -95,38 +95,5 @@ ssh pi@<IP_ADDRESS>
 * If you encounter any issues connecting, double-check the IP address and ensure that your Raspberry Pi is properly connected to the network and powered on. Also, verify that SSH was enabled during the OS setup.
 
 
-### Installing the Softwares related to satellite tracking
-
-Now that your Raspberry Pi is set up and accessible via SSH, let's install the software tools we'll use for our satellite tracking project.
-
-### RTL-SDR:
-
-RTL-SDR is a popular software-defined radio (SDR) receiver that allows us to capture and decode a wide range of radio signals. It's essential for receiving transmissions from satellites. 
-
-Connect your RLT-SDR receptor to the USB port of your Raspberry Pi.
-
-**Installation:**
-```
-sudo apt update
-sudo apt install rtl-sdr
-```
-
-**Testing:**
-Ensure your RTL-SDR is functioning by running the test command:
-```
-rtl_test
-```
-This command checks the connectivity and functionality of your RTL-SDR device, ensuring it is ready for further use.
-
-### Gqrx SDR:
-Gqrx provides a graphical interface to visualize and listen to the radio signals captured by RTL-SDR. This tool makes it easier to identify and monitor different frequencies and signals from satellites.
-
-**Installation:**
-```
-sudo apt install gqrx-sdr
-```
-
-
-
 [website]: https://www.raspberrypi.com/software/
 
