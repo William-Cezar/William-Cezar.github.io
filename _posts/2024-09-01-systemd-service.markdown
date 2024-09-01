@@ -35,3 +35,57 @@ This guide will cover:
 
 Stay tuned as we delve into each of these topics, equipping you with the tools you need to manage your server or desktop Linux system effectively.
 
+### Basic `systemctl` Commands
+
+#### Starting and Stopping Services
+- **Start a service**: 
+  ```
+  systemctl start [service_name]
+  ```
+- **Stop a service**:
+  ```
+  systemctl stop [service_name]
+  ```
+
+These commands allow you to manually start or stop system services.
+
+#### Enabling and Disabling Services
+- **Enable a service**: 
+  ```
+  systemctl enable [service_name]
+  ```
+- **Disable a service**:
+  ```
+  systemctl disable [service_name]
+  ```
+
+  Enabling a service sets it to start automatically at boot, while disabling prevents it from starting automatically.
+
+  #### Checking Service Status
+- **Status of a service**: 
+  ```
+  systemctl status [service_name]
+  ```
+This command provides detailed information about a service’s status, including whether it is running, stopped, or experiencing errors.
+
+#### Reloading and Restarting Services
+
+- **Reload a service**: 
+  ```
+  systemctl reload [service_name]
+  ```
+- **Restart a service**:
+  ```
+  systemctl restart [service_name]
+  ```
+  Reloading a service allows you to apply configuration changes without interrupting the service by reloading its configuration files. Restarting stops the service and starts it again.
+
+#### Viewing Logs
+- **Using `journalctl`**: 
+  ```
+  journalctl -u [service_name]
+  ```
+
+While not strictly a `systemctl` command, `journalctl` is often used in conjunction with `systemctl` to view logs for troubleshooting. This is crucial for diagnosing issues with services.
+
+### How to create and manage custom systemd service files
